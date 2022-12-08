@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(241, 244, 249);
 }
 
 code {
@@ -17,6 +18,18 @@ code {
 }
 
 li {
-  padding: 1rem;
   display: flex;
+  cursor: pointer;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
