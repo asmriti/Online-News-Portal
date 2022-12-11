@@ -1,5 +1,6 @@
 import React from "react";
-import logoimg from "../images/logo.png";
+import logoimg from "../images/logo1.png";
+import logoimage from "../images/logo2.png";
 
 import {
   HomeIcon,
@@ -15,9 +16,8 @@ function Nav() {
     <nav className="px-3 py-5 ">
       <div className="container p-2 mx-auto bg-white rounded-2xl ">
         <div className="flex justify-between text-center">
-          <div className="py-3 text-2xl font-bold cursor-pointer">.</div>
-
-          {/* <img src={logoimg} alt="logo" className="h-[100px]" /> */}
+          {/* <img src={logoimage} alt="logo" className="h-[100px]" /> */}
+          <img src={logoimg} alt="logo" className="h-[70px] ml-[40px]" />
 
           <div className="flex items-center justify-between">
             <ul className="items-center hidden md:flex">
@@ -44,7 +44,7 @@ function Nav() {
               </li>
             </ul>
           </div>
-          <div className="flex justify-between bg-transparent border-4 border-solid rounded-2xl">
+          <div className="flex justify-between bg-transparent border-4 border-solid rounded-2xl w-[18%]">
             <input
               className="text-center bg-transparent "
               placeholder="Search"

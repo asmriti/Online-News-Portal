@@ -3,6 +3,7 @@ import {
   HandThumbUpIcon,
   ShareIcon,
   ChatBubbleBottomCenterIcon,
+  EllipsisVerticalIcon,
   BookmarkIcon,
 } from "@heroicons/react/24/solid";
 import SideBar from "./SideBar";
@@ -15,7 +16,10 @@ function MainContent() {
       <SideBar />
 
       <div className="w-[55%%]">
-        <h1 className="text-4xl font-bold">Today's Headlines</h1>
+        <div className="flex justify-between">
+          <h1 className="text-4xl font-bold">Today's Headlines</h1>
+          <EllipsisVerticalIcon className="w-10 p-2 rounded-full cursor-pointer text-slate-400 " />
+        </div>
         <img src={featuredimg} alt="" className="max-w-2xl p-2 rounded-3xl" />
         <div>
           <ul className="flex justify-end  mt-[10px] ">
@@ -37,6 +41,7 @@ function MainContent() {
               <div className="p-2">Bookmark</div>
             </li>
           </ul>
+          <div className="text-3xl font-bold">Headlines Here</div>
         </div>
       </div>
 
