@@ -5,13 +5,14 @@ import Nav from "./components/Nav";
 import KidsSection from "./components/KidsSection";
 import PlayGames from "./components/PlayGames";
 
+import International from "./components/Categories/International";
+import Home from "./components/Categories/Home";
+
 function App() {
   return (
     <div>
       <Nav />
-      <MainContent />
-      <KidsSection />
-      <PlayGames />
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,45 @@
+.news-title {
+  color: rgba(0, 0, 0, 0.838);
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 10%;
+}
+
+.news-body {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+}
+.news-body::first-letter {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: cursive;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.news-footer {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.news-footer .author {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 12px;
+}
+.news-footer .date {
+  width: 100%;
+  text-align: end;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.739);
+}
+.news-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}

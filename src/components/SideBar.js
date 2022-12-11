@@ -4,7 +4,7 @@ import { CogIcon } from "@heroicons/react/24/solid";
 import featuredphoto from "../images/professional.jpg";
 function SideBar() {
   return (
-    <div className="p-4 w-[25%] ">
+    <div className="p-4 w-[25%]">
       <div className="bg-white border-2 rounded-lg color-white w-[100%]">
         <ul className="box-border flex justify-between items-center  h-[30%] p-4 text-base  ">
           <li>
@@ -27,37 +27,63 @@ function SideBar() {
       <ul className="items-center p-4 mt-2 bg-white border-2 rounded-lg color-white w-[100%]">
         <li className="text-xl font-bold">Categories</li>
         <li className="p-1 ">
-          <a href="" className="text-lg"> Entertainment</a>
+          <a href="" className="text-lg">
+            {" "}
+            Entertainment
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">International</a>
+          <a href="" className="text-lg">
+            International
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg"> Politics</a>
+          <a href="" className="text-lg">
+            {" "}
+            Politics
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg"> Business</a>
+          <a href="" className="text-lg">
+            {" "}
+            Business
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">Health</a>
+          <a href="" className="text-lg">
+            Health
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg"> LifeStyle</a>
+          <a href="" className="text-lg">
+            {" "}
+            LifeStyle
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">Sports</a>
+          <a href="" className="text-lg">
+            Sports
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">Travel/Tourism</a>
+          <a href="" className="text-lg">
+            Travel/Tourism
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">Food</a>
+          <a href="" className="text-lg">
+            Food
+          </a>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">Stock Market</a>
+          <a href="" className="text-lg">
+            Stock Market
+          </a>
         </li>
         <li className="">
-          <a href="" className="text-lg">Travel/Tourism</a>
+          <a href="" className="text-lg">
+            Travel/Tourism
+          </a>
         </li>
       </ul>
 
