@@ -7,15 +7,19 @@ import PlayGames from "./components/PlayGames";
 import Footer from "./components/Footer";
 import KidsUp from "./components/KidsUp";
 
+import International from "./components/Categories/International";
+import Home from "./components/Categories/Home";
+
 function App() {
   return (
     <div>
       <Nav />
       <MainContent />
-      <KidsUp/>
+      <KidsUp />
       <KidsSection />
       <PlayGames />
       <Footer />
+      <Home />
     </div>
   );
 }
