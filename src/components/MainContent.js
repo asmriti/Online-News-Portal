@@ -12,7 +12,7 @@ import featuredimg from "../images/img1.jpg";
 
 function MainContent() {
   return (
-    <div className="container flex justify-between py-5 mx-auto ">
+    <div className="container flex justify-between py-5 mx-auto mt-[5rem] ">
       <SideBar />
 
       <div className="w-[55%%]">

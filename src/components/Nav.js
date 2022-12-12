@@ -1,4 +1,5 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import logoimg from "../images/logo1.png";
 import logoimage from "../images/logo2.png";
 
@@ -10,11 +11,12 @@ import {
   UsersIcon,
   ChartBarIcon,
 } from "@heroicons/react/24/solid";
+import KidsSection from "./KidsSection";
 
 function Nav() {
   return (
-    <nav className="px-3 py-5 ">
-      <div className="container p-2 mx-auto bg-white rounded-2xl ">
+    <nav className="pb-5 ">
+      <div className="container fixed p-2 mx-auto bg-white rounded-2xl">
         <div className="flex justify-between text-center">
           {/* <img src={logoimage} alt="logo" className="h-[100px]" /> */}
           <img src={logoimg} alt="logo" className="h-[70px] ml-[40px]" />
@@ -42,6 +44,9 @@ function Nav() {
                 <UsersIcon className="w-8 pr-2 text-slate-400" />
                 <a href="/kids-section">Kids Section</a>
               </li>
+              {/* <Route path="/kids-section">
+                <KidsSection />
+              </Route> */}
             </ul>
           </div>
           <div className="flex justify-between bg-transparent border-4 border-solid rounded-2xl w-[18%]">

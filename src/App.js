@@ -1,6 +1,7 @@
 import "./App.css";
 import MainContent from "./components/MainContent";
 import Nav from "./components/Nav";
+// import { Route } from "react-router-dom";
 // import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import KidsSection from "./components/KidsSection";
 import PlayGames from "./components/PlayGames";
@@ -12,7 +13,6 @@ function App() {
     <div>
       <Nav />
       <MainContent />
-      <KidsUp/>
       <KidsSection />
       <PlayGames />
       <Footer />

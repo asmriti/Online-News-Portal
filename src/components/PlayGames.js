@@ -7,7 +7,7 @@ import gkquestions from "../images/gkquestions.jpg";
 
 function PlayGames() {
   return (
-    <div className="flex justify-between p-4 bg-white">
+    <div className="container flex justify-between p-4 mx-auto bg-white">
       {" "}
       <ul className="p-6 ">
         <li className="inline-block">
