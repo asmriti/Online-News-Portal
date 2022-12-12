@@ -5,10 +5,12 @@ import stories from "../images/stories-1.jpg";
 import biography from "../images/biography-1.jpg";
 import logoimg from "../images/logo1.png";
 import kidsimg from "../images/kidsimg.png";
+import kiidsimg from "../images/kiiddd.png";
+import PlayGames from "../components/PlayGames";
 
 function KidsSection() {
   return (
-    <div className="container box-border px-3 py-5 mx-auto mt-10 ">
+    <div className="container box-border px-3  mx-auto  w-[100%]">
       <div className="bg-[#bcaaa4]">
         <nav className="flex items-center justify-between py-4 bg-white rounded-b-2xl">
           <img src={logoimg} alt="logoimg" className="h-[70px] ml-[40px]" />
@@ -21,13 +23,13 @@ function KidsSection() {
           <h1 className="text-5xl font-bold tracking-wide text-center text-[#6d4c41]">
             Learning fun, Sharing the joy
           </h1>
-          <p className="p-2 text-center bg-[#6d4c41] text-white mt-[3rem]  rounded-2xl">
+          <p className="p-2 text-center  text-white mt-[3rem]  rounded-2xl ">
             Let the child be actor and director in his own play.
           </p>
-          <img src={kidsimg} className="mt-[-18rem]" />
+          <img src={kidsimg} className="w-[40%] mt-[-8rem]" />
         </div>
 
-        <div className="flex justify-center p-4 ml-[3rem] items-center mb-[3rem]">
+        <div className="flex justify-center p-4 ml-[3rem] items-center ">
           <button className="p-3 text-lg border-4 border-transparent rounded-2xl mr-[2rem] text-white bg-[#6d4c41] ">
             Start learning today
           </button>
@@ -85,6 +87,7 @@ function KidsSection() {
           </li>
         </ul>
       </div>
+      <PlayGames/>
     </div>
   );
 }

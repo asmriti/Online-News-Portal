@@ -1,7 +1,6 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logoimg from "../images/logo1.png";
-import logoimage from "../images/logo2.png";
 
 import {
   HomeIcon,
@@ -15,41 +14,43 @@ import KidsSection from "./KidsSection";
 
 function Nav() {
   return (
-    <nav className="pb-5 ">
-      <div className="container fixed p-2 mx-auto bg-white rounded-2xl">
-        <div className="flex justify-between text-center">
-          {/* <img src={logoimage} alt="logo" className="h-[100px]" /> */}
-          <img src={logoimg} alt="logo" className="h-[70px] ml-[40px]" />
+    <nav className="bg-white">
+      <div className="container p-2 rounded-2xl">
+        <div className="flex items-center justify-between">
+          <div>
+            <img src={logoimg} alt="logo" className="h-[70px] " />{" "}
+          </div>
 
           <div className="flex items-center justify-between">
-            <ul className="items-center hidden md:flex">
-              <li className="mr-8 border-indigo-500 last:mr-0 rounded-2xl">
+            <ul className="items-center hidden md:flex ">
+              <li className="flex mr-8 border-indigo-500 last:mr-0 rounded-2xl">
                 <HomeIcon className="w-8 pr-2 text-slate-400 " />
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
-              <li className="mr-8 border-indigo-500 last:mr-0 rounded-2xl">
+              <li className="flex mr-8 border-indigo-500 last:mr-0 rounded-2xl">
                 <UserGroupIcon className="w-8 pr-2 text-slate-400" />
-                <a href="/community">Community</a>
+                <Link to="/community">Community</Link>
               </li>
-              <li className="mr-8 border-indigo-500 last:mr-0 rounded-2xl">
+              <li className="flex mr-8 border-indigo-500 last:mr-0 rounded-2xl">
                 <NewspaperIcon className="w-8 pr-2 text-slate-400 " />
-                <a href="/post-article">Post article</a>
+                <Link to="/post-article">Post article</Link>
               </li>
-              <li className="mr-8 border-indigo-500 last:mr-0 rounded-2xl">
+              <li className="flex mr-8 border-indigo-500 last:mr-0 rounded-2xl">
                 <ChartBarIcon className="w-8 pr-2 text-slate-400 " />
-                <a href="/post-article">Polls</a>
+                <a href="/polls">Polls</a>
               </li>
 
-              <li className="mr-8 border-indigo-500 last:mr-0 rounded-2xl">
+              <li className="flex mr-8 border-indigo-500 last:mr-0 rounded-2xl">
                 <UsersIcon className="w-8 pr-2 text-slate-400" />
-                <a href="/kids-section">Kids Section</a>
+                <Link to="/kids-section">Kids Section</Link>
               </li>
               {/* <Route path="/kids-section">
                 <KidsSection />
               </Route> */}
             </ul>
           </div>
-          <div className="flex justify-between bg-transparent border-4 border-solid rounded-2xl w-[18%]">
+
+          <div className="flex justify-between bg-transparent border-4 border-solid rounded-2xl w-[15%] h-12 items-center">
             <input
               className="text-center bg-transparent "
               placeholder="Search"

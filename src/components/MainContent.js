@@ -32,7 +32,7 @@ function MainContent() {
         {newsArr &&
           newsArr.map((news, index) => {
             return (
-              <div className="w-[55%%]" key={index}>
+              <div className="w-[55%]" key={index}>
                 <h1 className="text-4xl font-bold">Today's Headlines</h1>
                 <h1 className={styles["news-title"]}>
                   G20 summit to happen in India

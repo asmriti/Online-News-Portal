@@ -1,26 +1,40 @@
-import "./App.css";
-import MainContent from "./components/MainContent";
-import Nav from "./components/Nav";
-// import { Route } from "react-router-dom";
-// import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import KidsSection from "./components/KidsSection";
-import PlayGames from "./components/PlayGames";
-import Footer from "./components/Footer";
-import KidsUp from "./components/KidsUp";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-import International from "./components/Categories/International";
-import Home from "./components/Categories/Home";
+import Footer from "./components/Footer";
+import PlayGames from "./components/PlayGames";
+import MainContent from "./components/MainContent";
+import PostArticle from "./components/PostArticle";
+import KidsSection from "./components/KidsSection";
+import CommunitySection from "./components/CommunitySection";
+
+import Home from "./pages/Home";
+import Community from "./pages/Community";
+import ArticlePost from "./pages/ArticlePost"
+
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <Nav />
-      <MainContent />
-      <KidsUp/>
-      <KidsSection />
-      <PlayGames />
-      <Footer />
-      <Home />
+      <Router>
+        <Switch>
+          <Route path="/community">
+            <Community />
+          </Route>
+
+          <Route path="/post-article">
+            <ArticlePost />
+          </Route>
+
+          <Route path="/kids-section">
+            <KidsSection />
+          </Route>
+
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
