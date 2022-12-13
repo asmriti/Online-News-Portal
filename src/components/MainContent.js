@@ -25,7 +25,7 @@ function MainContent() {
   }, []);
 
   return (
-    <div className="container flex justify-between py-5 mx-auto mt-[5rem] ">
+    <div className="container flex justify-between py-5 mx-auto mt-[1rem] ">
       <SideBar />
 
       <div className={styles["news-wrapper"]}>
