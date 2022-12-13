@@ -1,10 +1,12 @@
-import react from "react";
+import React from "react";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
 import { CogIcon } from "@heroicons/react/24/solid";
 import featuredphoto from "../images/professional.jpg";
+import "./Styles.css";
 function SideBar() {
   return (
-    <div className="p-4 w-[25%]">
+    <div className="p-4 w-[25%] sidebar">
       <div className="bg-white border-2 rounded-lg color-white w-[100%]">
         <ul className="box-border flex justify-between items-center  h-[30%] p-4 text-base  ">
           <li>
@@ -26,64 +28,60 @@ function SideBar() {
 
       <ul className="items-center p-4 mt-2 bg-white border-2 rounded-lg color-white w-[100%]">
         <li className="text-xl font-bold">Categories</li>
+
         <li className="p-1 ">
-          <a href="" className="text-lg">
-            {" "}
-            Entertainment
-          </a>
-        </li>
-        <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="/international" className="text-lg link">
             International
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="/politics" className="text-lg link">
             {" "}
             Politics
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="/business" className="text-lg link">
             {" "}
             Business
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="/entertainment" className="text-lg link">
+            {" "}
+            Entertainment
+          </Link>
+        </li>
+        <li className="p-1 ">
+          <Link to="/health" className="text-lg link">
             Health
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="lifestyle" className="text-lg link">
             {" "}
             LifeStyle
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="/sports" className="text-lg link">
             Sports
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
-            Travel/Tourism
-          </a>
+          <Link to="/travel" className="text-lg link">
+            Travel
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
+          <Link to="/food" className="text-lg link">
             Food
-          </a>
+          </Link>
         </li>
         <li className="p-1 ">
-          <a href="" className="text-lg">
-            Stock Market
-          </a>
-        </li>
-        <li className="">
-          <a href="" className="text-lg">
-            Travel/Tourism
-          </a>
+          <Link to="/business" className="text-lg link">
+            Business
+          </Link>
         </li>
       </ul>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logoimg from "../images/logo1.png";
-
+import "./Styles.css";
 import {
   HomeIcon,
   NewspaperIcon,
@@ -14,7 +14,7 @@ import KidsSection from "./KidsSection";
 
 function Nav() {
   return (
-    <nav className="bg-white">
+    <nav className="bg-white navbar">
       <div className="container p-2 rounded-2xl">
         <div className="flex items-center justify-between">
           <div>
