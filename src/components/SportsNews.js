@@ -8,8 +8,8 @@ import ScoreCard from "./ScoreCard";
 
 function SportsNews() {
   return (
-    <div className="w-[25%]">
-      <h1 className="mb-2 text-2xl font-bold text-center">Sports News</h1>
+    <div className="w-[25%] sports-wrapper">
+      <h1 className="mb-2 text-2xl font-bold text-center">Sports Highlights</h1>
       <div className="p-6 mb-4 bg-white rounded-2xl">
         <ScoreCard image={realmadridpic} title="Real Madrid" score="3" />
         <ScoreCard image={barcelona} title="Barcelona" score="3" />

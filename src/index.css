@@ -4,6 +4,7 @@
 
 body {
   background-color: rgb(241, 244, 249);
+  overflow: scroll;
 }
 
 code {

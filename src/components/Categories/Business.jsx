@@ -5,22 +5,14 @@ import SportsNews from "../SportsNews";
 
 import GetNews from "../../Common/GetNews";
 import NewsList from "../../Common/NewsList";
-
-const Business = ({ category }) => {
-  const [newsArr, setNewsArr] = useState([]);
-  useEffect(() => {
-    let data;
-    async function getNews() {
-      data = await GetNews("business");
-      setNewsArr(data);
-    }
-    getNews();
-  }, []);
-
+import MainContent from "../MainContent";
+import Nav from "../Nav";
+const Business = () => {
   return (
     <div className="container flex justify-between py-5 mx-auto ">
+      <Nav />
       <SideBar />
-      {newsArr && <NewsList newsArr={newsArr} category={category} />}
+      <MainContent category={"Business"} />
       <SportsNews />
     </div>
   );
