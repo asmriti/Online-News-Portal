@@ -1,0 +1,15 @@
+.notification {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* .update-notification {
+  display: block;
+  margin-bottom: 12px;
+  color: rgba(237, 237, 237, 0.658);
+  text-align: center;
+} */
