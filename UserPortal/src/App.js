@@ -21,6 +21,8 @@ import Nature from "./components/Categories/Nature";
 import Politics from "./components/Categories/Politics";
 import Sports from "./components/Categories/Sports";
 import Travel from "./components/Categories/Travel";
+import Technology from "./components/Categories/Technology";
+
 function App() {
   return (
     <Router>
@@ -47,6 +49,10 @@ function App() {
 
         <Route path="/business">
           <Business />
+        </Route>
+
+        <Route path="/technology">
+          <Technology />
         </Route>
 
         <Route path="/entertainment">

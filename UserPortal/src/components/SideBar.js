@@ -79,52 +79,11 @@ function SideBar() {
           </Link>
         </li>
         <li className="p-1 ">
-          <Link to="/business" className="text-lg link">
-            Business
+          <Link to="/technology" className="text-lg link">
+            Technology
           </Link>
         </li>
       </ul>
-
-      {/* <ul className="box-border w-40 p-5 text-2xl font-bold text-left bg-white border-2 rounded-lg h-90 color-white">
-        <li>
-          Categories
-          <div className="mt-6 text-base font-medium text-left text-gray-700 ">
-            <li className="p-1 mb-1">
-              <a href="#"> Entertainment</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#"> International</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#"> Politics</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#"> Business</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#"> Health</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#"> LifeStyle</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#"> Sports</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#">Travel/Tourism</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#">Food</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#">Stock Market</a>
-            </li>
-            <li className="p-1 mb-1">
-              <a href="#">Travel/Tourism</a>
-            </li>
-          </div>
-        </li>
-      </ul> */}
     </div>
   );
 }
