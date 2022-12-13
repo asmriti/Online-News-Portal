@@ -1,7 +1,7 @@
+import "./Styles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import logoimg from "../images/logo1.png";
-import "./Styles.css";
 import {
   HomeIcon,
   NewspaperIcon,
@@ -18,7 +18,7 @@ function Nav() {
       <div className="container p-2 rounded-2xl">
         <div className="flex items-center justify-between">
           <div>
-            <img src={logoimg} alt="logo" className="h-[70px] " />{" "}
+            <img src={logoimg} alt="logo" className="h-[70px] ml-10 w-[74%]" />{" "}
           </div>
 
           <div className="flex items-center justify-between">
