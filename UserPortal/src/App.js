@@ -22,6 +22,7 @@ import Politics from "./components/Categories/Politics";
 import Sports from "./components/Categories/Sports";
 import Travel from "./components/Categories/Travel";
 import Technology from "./components/Categories/Technology";
+import Polls from "./pages/Polls";
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
 
         <Route path="/kids-section">
           <KidsSection />
+        </Route>
+
+        <Route path="/polls">
+          <Polls />
         </Route>
 
         <Route path="/international">

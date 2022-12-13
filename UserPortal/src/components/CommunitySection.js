@@ -15,9 +15,10 @@ function CommunitySection() {
             Your <span className="text-[#ffc400]">Community</span> Knows Best.
           </h1>
           <p className="mt-5 text-lg w-[80%]">
-            Get in touch with people and see what they are upto.Experience the
+            Get in touch with people and see what they are upto. Experience the
             power of community.
           </p>
+          <button className="text-lg text-black border-4 border-solid rounded-2xl bg-[#ffab00] border-transparent w-40 mt-10 font-bold p-2">Join Now</button>
         </div>
         <div>
           <img src={community} alt="community" className="h-[30rem]" />
