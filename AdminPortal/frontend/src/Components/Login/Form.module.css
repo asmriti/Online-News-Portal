@@ -1,0 +1,101 @@
+.form-wrapper {
+  width: 36%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+.desc {
+  color: rgba(0, 0, 0, 0.533);
+  margin-bottom: 18px;
+}
+.form-field {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+.form-field label {
+  margin-bottom: 3px;
+  color: #43464a;
+  font-weight: bold;
+}
+.form-field input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.features {
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.features input {
+  margin-left: 4px;
+}
+.features p {
+  display: inline;
+  margin-left: 10px;
+}
+.forget-password span {
+  color: rgba(0, 0, 255, 0.754);
+  font-weight: bold;
+  cursor: pointer;
+}
+button {
+  padding: 12px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  border: none;
+  background-color: #2f1896c6;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+#btn {
+  width: 100%;
+}
+button:hover {
+  background-color: #2f1896db;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.footer span {
+  color: blue;
+  cursor: pointer;
+}
+
+.notification {
+  color: orangered;
+  display: inline-block;
+  position: absolute;
+  bottom: -30px;
+  left: 48%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1024px) {
+  .form-wrapper {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .form-wrapper {
+    width: 80%;
+  }
+}
