@@ -14,7 +14,6 @@ const Politics = () => {
       <Nav />
       <SideBar />
       <MainContent category={"Politics"} />
-      <SportsNews />
     </div>
   );
 };

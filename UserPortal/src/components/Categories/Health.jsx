@@ -14,7 +14,6 @@ const Health = () => {
       <Nav />
       <SideBar />
       <MainContent category={"Health"} />
-      <SportsNews />
     </div>
   );
 };

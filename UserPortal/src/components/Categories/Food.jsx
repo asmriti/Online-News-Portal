@@ -14,7 +14,6 @@ const Food = () => {
       <Nav />
       <SideBar />
       <MainContent category={"Food"} />
-      <SportsNews />
     </div>
   );
 };

@@ -10,6 +10,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import GetNews from "../Common/GetNews";
+import Popular from "./Popular";
 function MainContent({ category }) {
   const [newsArr, setNewsArr] = useState([]);
   useEffect(() => {
@@ -74,6 +75,7 @@ function MainContent({ category }) {
             );
           })}
       </div>
+      {category != "National" && <Popular newsArr={newsArr} />}
     </div>
   );
 }

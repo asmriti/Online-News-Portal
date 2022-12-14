@@ -6,6 +6,7 @@ import Nav from "../Nav";
 import GetNews from "../../Common/GetNews";
 import NewsList from "../../Common/NewsList";
 import MainContent from "../MainContent";
+import Popular from "../Popular";
 
 const International = () => {
   console.log("I am here");
@@ -14,7 +15,6 @@ const International = () => {
       <Nav />
       <SideBar />
       <MainContent category={"International"} />
-      <SportsNews />
     </div>
   );
 };

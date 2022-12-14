@@ -14,7 +14,6 @@ const Travel = () => {
       <Nav />
       <SideBar />
       <MainContent category={"Travel"} />
-      <SportsNews />
     </div>
   );
 };
