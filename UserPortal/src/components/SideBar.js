@@ -1,9 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import { UserCircleIcon } from "@heroicons/react/24/solid";
-import { CogIcon } from "@heroicons/react/24/solid";
-import featuredphoto from "../images/professional.jpg";
+
 import "./Styles.css";
+import { CogIcon } from "@heroicons/react/24/solid";
+
+import featuredphoto from "../images/professional.jpg";
+
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
 function SideBar() {
   return (
     <div className="p-4 w-[25%] sidebar">

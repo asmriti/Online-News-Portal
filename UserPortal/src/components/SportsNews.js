@@ -1,10 +1,11 @@
 import React from "react";
-import { PhotoIcon } from "@heroicons/react/24/solid";
-import realmadridpic from "../images/realmadridpic.png";
-import barcelona from "../images/barcelona.png";
-import manchesterunited from "../images/manchesterunited.png";
-import leicester from "../images/leicester.png";
+
 import ScoreCard from "./ScoreCard";
+
+import barcelona from "../images/barcelona.png";
+import leicester from "../images/leicester.png";
+import realmadridpic from "../images/realmadridpic.png";
+import manchesterunited from "../images/manchesterunited.png";
 
 function SportsNews() {
   return (
