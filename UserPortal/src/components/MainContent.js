@@ -22,7 +22,7 @@ function MainContent({ category }) {
   }, []);
 
   return (
-    <div className="container py-5 mx-auto mt-[1rem] ">
+    <div className="container mx-auto mt-[1rem] ">
       <div className={styles["news-wrapper"]}>
         {newsArr &&
           newsArr.map((news, index) => {

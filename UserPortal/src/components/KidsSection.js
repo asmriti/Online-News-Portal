@@ -38,10 +38,13 @@ function KidsSection() {
       </div>
 
       <div className="stories-section">
-        <h1 className="section-heading">Mysterious Stories</h1>
+        <h1 className="p-4 mb-10 text-3xl font-bold text-center">
+          Mysterious Stories
+        </h1>
         <div className="wrapper">
           <div className="video-wrapper">
             <iframe
+              className="rounded-2xl"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/-darNbHqLuk"
@@ -51,8 +54,8 @@ function KidsSection() {
               allowfullscreen
             ></iframe>
           </div>
-          <div className="story-wrapper">
-            <h2 className="story-heading">Jack and the Bean Stalk</h2>
+          <div className=" story-wrapper">
+            <h2 className="text-xl story-heading">Jack and the Bean Stalk</h2>
             <p>
               Once upon a time there was a boy called Jack. He lived with his
               mother. They were very poor. All they had was a cow. One morning,
@@ -98,6 +101,7 @@ function KidsSection() {
           </div>
           <div className="video-wrapper">
             <iframe
+              className="rounded-2xl"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/nFYlN5Fayvs"
@@ -109,6 +113,7 @@ function KidsSection() {
           </div>
           <div className="video-wrapper">
             <iframe
+              className="rounded-2xl"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/mLVRGfeHkas"
@@ -165,6 +170,7 @@ function KidsSection() {
           </div>
           <div className="video-wrapper">
             <iframe
+              className="rounded-2xl"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/VwSSPGTQsFk"
@@ -178,76 +184,80 @@ function KidsSection() {
       </div>
 
       <div className="arts-section">
-        <h2 className="section-heading">Today's showcase</h2>
+        <h2 className="p-4 mb-6 text-4xl font-bold text-center">
+          Today's showcase
+        </h2>
         <div className="art-wrapper">
           <div className="art">
-            <h2 className="art-heading">My Dear School</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center ">
+              My Dear School
+            </h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc19.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">My pet, The Dog</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">My pet, The Dog</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc18.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">Butterfly, Hey Butterfly</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">Butterfly, Hey Butterfly</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc21.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">School is the best</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">School is the best</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc17.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">My Dream House</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">My Dream House</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc16.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">My painting</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">My painting</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc15.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">Niome, my drawing</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">Niome, my drawing</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc14.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">Losing Hope</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">Losing Hope</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc13.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">Elephant</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">Elephant</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc_.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">My pet bird, Cookie</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">My pet bird, Cookie</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc_pet_bird.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">My car</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">My car</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc_car.jpg" />
             </div>
           </div>
           <div className="art">
-            <h2 className="art-heading">My boat</h2>
+            <h2 className="p-4 mb-6 text-4xl font-bold text-center">My boat</h2>
             <div className="art-img-wrapper">
               <img src="https://www.thecuriousowl.net/upload/owletcorners/oc10.jpg" />
             </div>
