@@ -25,7 +25,7 @@
   top: 20%;
 
   color: red;
-  transform: rotate(-22deg);
+  /* transform: rotate(-22deg); */
   text-align: center;
 }
 
@@ -53,13 +53,13 @@
 
 .content h1:hover ~ .hidden-img {
   /* transform: rotate(23deg); */
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .hidden-img {
   position: absolute;
-  top: 340%;
-  right: -120%;
+  top: 169%;
+  right: -160%;
   transition: all 1s ease;
   width: 300px;
   height: 400px;
