@@ -1,0 +1,296 @@
+.kid-page {
+  background-color: rgb(182, 222, 239);
+}
+
+.hero-section-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.11);
+  color: white;
+}
+.img-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-section-wrapper .content {
+  width: 500px;
+  border-radius: 12px;
+  position: absolute;
+  top: 20%;
+
+  color: red;
+  transform: rotate(-22deg);
+  text-align: center;
+}
+
+.content h1 {
+  font-weight: bold;
+  color: rgb(120, 216, 68);
+  font-size: 55px;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0px 0px 12px black;
+}
+.content h1 {
+  background-color: rgba(52, 153, 187, 0.806);
+  display: inline-block;
+  padding: 0px 12px;
+  border-radius: 12px;
+
+  transition: all 0.2s ease;
+}
+
+.content h1:hover {
+  background-color: orange;
+  color: blue;
+  cursor: default;
+}
+
+.content h1:hover ~ .hidden-img {
+  /* transform: rotate(23deg); */
+  transform: scale(1.2);
+}
+
+.hidden-img {
+  position: absolute;
+  top: 340%;
+  right: -120%;
+  transition: all 1s ease;
+  width: 300px;
+  height: 400px;
+  transform: rotate(25deg);
+}
+.hidden-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content p {
+  color: rgba(255, 255, 255, 0.819);
+  font-family: cursive;
+  font-size: 24px;
+}
+p .highlights {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 217, 0, 0.211);
+  color: orange;
+}
+p .highlights:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.stories-section {
+  margin-top: 40px;
+}
+.section-heading {
+  color: rgba(0, 0, 0, 0.935);
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 40px;
+  background-color: rgba(172, 255, 47, 0.797);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.066);
+  margin-top: 60px;
+}
+.stories-section .wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.video-wrapper,
+.story-wrapper {
+  align-self: center;
+  margin-bottom: 50px;
+  width: 48%;
+  height: 400px;
+}
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.story-wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.story-heading {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.art-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 20px;
+}
+.art {
+  width: 48%;
+}
+
+.art .art-heading {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgba(3, 167, 167, 0.362);
+}
+
+.art-img-wrapper {
+  width: 100%;
+}
+
+.art-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.biography-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.biography {
+  border: 3px solid rgba(0, 0, 0, 0.572);
+  border-radius: 12px;
+  width: 70%;
+  padding: 20px;
+
+  background-color: aliceblue;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.507);
+}
+
+.biography .img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.biograhpy-heading {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.biography .sub-heading {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.biography p {
+  margin-bottom: 20px;
+}
+
+.biography-cards {
+  width: 20%;
+
+  box-shadow: 0px 0px;
+  border-radius: 12px;
+}
+.card {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.card:hover .card-name,
+.game-card:hover .game-name {
+  color: blue;
+}
+.card:last-of-type {
+  margin-bottom: 0px;
+}
+.card .img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.biography-cards .title {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+
+.card .card-name,
+.game-card .game-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: greenyellow;
+  padding: 4px 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.games-wrapper {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: rgba(161, 170, 147, 0.536);
+}
+.game-card {
+  width: 23%;
+  height: 400px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.561);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.309);
+  overflow: hidden;
+}
+.game-card .img-wrapper {
+  width: 100%;
+  height: 90%;
+  cursor: pointer;
+  overflow: hidden;
+}
+.game-card .img-wrapper img {
+  transition: all 0.3s ease;
+}
+
+.game-card .img-wrapper:hover img {
+  filter: sepia(80%);
+}

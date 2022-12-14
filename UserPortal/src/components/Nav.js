@@ -14,7 +14,7 @@ import KidsSection from "./KidsSection";
 
 function Nav() {
   return (
-    <nav className="bg-white navbar">
+    <nav className="bg-white navbar kids-navbar">
       <div className="container p-2 rounded-2xl">
         <div className="flex items-center justify-between">
           <div>
