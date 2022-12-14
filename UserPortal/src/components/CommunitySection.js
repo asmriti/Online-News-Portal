@@ -1,5 +1,4 @@
 import React from "react";
-// import community from "../images/community.png";
 import community from "../images/commu.png";
 
 import shareevents from "../images/shareevents.png";
@@ -18,7 +17,9 @@ function CommunitySection() {
             Get in touch with people and see what they are upto. Experience the
             power of community.
           </p>
-          <button className="text-lg text-black border-4 border-solid rounded-2xl bg-[#ffab00] border-transparent w-40 mt-10 font-bold p-2">Join Now</button>
+          <button className="text-lg text-black border-4 border-solid rounded-2xl bg-[#ffab00] border-transparent w-40 mt-10 font-bold p-2">
+            Join Now
+          </button>
         </div>
         <div>
           <img src={community} alt="community" className="h-[30rem]" />
@@ -48,7 +49,9 @@ function CommunitySection() {
             <h1 className="m-2 text-xl font-bold text-center">
               Get information
             </h1>
-            <p className="text-lg text-center">Share events and news.</p>
+            <p className="text-lg text-center">
+              Find the best solutions recommended by your community network.
+            </p>
           </div>
 
           <div className="p-6">

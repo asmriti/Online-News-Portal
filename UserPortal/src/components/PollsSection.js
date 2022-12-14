@@ -1,124 +1,60 @@
 import React from "react";
+
+import PollsCard from "./PollsCard";
+import PollsReverse from "./PollsCard";
+
 import polls1 from "../images/polls1.png";
+import polls from "../images/polls.png";
 
 function PollsSection() {
   return (
-    <div className="p-2">
-      <h1 className="text-4xl font-bold text-center ">Roll to the Poll</h1>
-      <div className="flex justify-around">
-        <img src={polls1} alt="polls1" className="w-1/4 rounded-2xl" />
-        <div className="items-center p-6 bg-white rounded-2xl">
-          <h1 className="text-xl font-bold">
-            Who do you think would be appropriate to be the next Prime Minister
-            of Nepal?
+    <div className="container mx-auto my-[1rem]">
+      <div className="flex items-center justify-between p-40">
+        <div>
+          <h1 className="text-5xl font-bold">
+            Make Your <span className="text-[#ffc400]">Voice</span> Count.
           </h1>
-          <div className="mt-4">
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
+          <p className="mt-5 text-lg w-[80%]">Your vote is your voice.</p>
+        </div>
 
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
-
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
-            <button className="text-lg text-black border-4 border-solid rounded-2xl bg-[#ffab00] border-transparent w-40  font-bold p-2">
-              Submit
-            </button>
-          </div>
+        <div>
+          <img src={polls} alt="community" className="h-[20rem] rounded-2xl" />
         </div>
       </div>
 
-      <div className="flex justify-around mt-10">
-        <div className="items-center p-6 bg-white rounded-2xl">
-          <h1 className="text-xl font-bold">
-            Who do you think would be appropriate to be the next Prime Minister
-            of Nepal?
-          </h1>
-          <div className="mt-4">
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
+      <h1 className="text-3xl font-bold text-center">
+        Roll to the <span className="text-[#ffc400]">Poll</span>
+      </h1>
 
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
+      <PollsCard
+        image={polls1}
+        question="Who do you think would be appropriate to be the next Prime Minister
+            of Nepal?"
+        option1="Someone"
+        option2="Someone"
+        option3="Someone"
+        option4="Someone"
+      />
 
-            <div className="my-4 text-xl">
-              <input
-                type="checkbox"
-                id="topping"
-                name="topping"
-                value="Paneer"
-                className="mr-2"
-              />
-              Someone
-            </div>
-            <button className="text-lg text-black border-4 border-solid rounded-2xl bg-[#ffab00] border-transparent w-40  font-bold p-2">
-              Submit
-            </button>
-          </div>
-        </div>
+      <PollsReverse
+        image={polls1}
+        question="Who do you think would be appropriate to be the next Prime Minister
+            of Nepal?"
+        option1="Someone"
+        option2="Someone"
+        option3="Someone"
+        option4="Someone"
+      />
 
-        <img src={polls1} alt="polls1" className="w-1/4 rounded-2xl" />
-      </div>
+      <PollsCard
+        image={polls1}
+        question="Who do you think would be appropriate to be the next Prime Minister
+            of Nepal?"
+        option1="Someone"
+        option2="Someone"
+        option3="Someone"
+        option4="Someone"
+      />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import games from "../images/games-1.jpg";
-import chess from "../images/chess.jpg";
+
 import ludo from "../images/ludo.jpg";
+import chess from "../images/chess.jpg";
 import puzzle from "../images/puzzle.jpg";
 import gkquestions from "../images/gkquestions.jpg";
 

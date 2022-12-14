@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
+
 import styles from "../Common/common.module.css";
+
 import {
   HandThumbUpIcon,
   ShareIcon,
   ChatBubbleBottomCenterIcon,
-  EllipsisVerticalIcon,
   BookmarkIcon,
 } from "@heroicons/react/24/solid";
 
@@ -44,26 +45,22 @@ function MainContent({ category }) {
                         <HandThumbUpIcon
                           className={`w-10 p-2 text-slate-400  ${styles.icon}`}
                         />
-                        {/* <div className="p-2">Like</div> */}
                       </li>
                       <li className="mr-1 border-indigo-500 rounded-2xl ">
                         <ShareIcon
                           className={`w-10 p-2 text-slate-400  ${styles.icon}`}
                         />
-                        {/* <div className="p-2">Share</div> */}
                       </li>
                       <li className="mr-1 border-indigo-500 rounded-2xl ">
                         <ChatBubbleBottomCenterIcon
                           className={`w-10 p-2 text-slate-400  ${styles.icon}`}
                         />
-                        {/* <div className="p-2">Comment</div> */}
                       </li>
 
                       <li className="mr-1 border-indigo-500 rounded-2xl ">
                         <BookmarkIcon
                           className={`w-10 p-2 text-slate-400  ${styles.icon}`}
                         />
-                        {/* <div className="p-2">Bookmark</div> */}
                       </li>
                     </ul>
                   </div>

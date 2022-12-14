@@ -1,81 +1,43 @@
 import React from "react";
-// import { FaBeer } from "react-icons/fa";
-// import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-// import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+import FooterCard from "./FooterCard";
 
 function Footer() {
   return (
     <div className="container mx-auto">
-      <div className=" mt-[5rem] p-4 flex justify-around mb-[3rem] ">
-        <ul>
-          <li className="text-xl font-bold">About Us</li>
-          <li className="mt-[10px] ">
-            <a href="" target="_blank">
-              About the post
-            </a>
-          </li>
-          <li className="mt-[5px]">
-            <a href="" target="_blank">
-              Editorial Standards & Integrity
-            </a>
-          </li>
+      <div>
+        <div className=" mt-[5rem] p-4 flex justify-around mb-[3rem] ">
+          <FooterCard
+            topic="About Us"
+            content1="Editorial Standards & Integrity"
+            content2=" Workplace Harassment Policy"
+            content3="Privacy Policy"
+            content4="About the post"
+          />
 
-          <li className="mt-[5px]">
-            <a href="" target="_blank">
-              Workplace Harassment Policy
-            </a>
-          </li>
+          <FooterCard
+            topic="Read Us"
+            content1=" Home Delivery"
+            content2="  ePaper"
+          />
 
-          <li className="mt-[5px]">
-            <a href="" target="_blank">
-              Privacy Policy
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li className="text-xl font-bold">Read Us</li>
-          <li className="mt-[10px]">
-            <a href="" target="_blank">
-              Home Delivery
-            </a>
-          </li>
-          <li className="mt-[5px]">
-            <a href="" target="_blank">
-              ePaper
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li className="text-xl font-bold">Contact Us </li>
-          <li className="mt-[10px]">
-            <a href="">Writers for the post</a>
-          </li>
-          <li className="mt-[5px]">
-            <a href="">Advertise in the Post</a>
-          </li>
-          <li className="mt-[5px]">
-            <a href="">Work for the Post</a>
-          </li>
-          <li className="mt-[5px]">
-            <a href="">Send us a tip</a>
-          </li>
-        </ul>
-        <ul>
-          <li className="text-xl font-bold">Interact with us</li>
-          <li className="mt-[10px]">
-            <a href="">Twitter</a>
-          </li>
-          <li className="mt-[5px]">
-            <a href="">Instagram</a>
-          </li>
+          <FooterCard
+            topic="Contact Us"
+            content1="Writers for the post"
+            content2="Advertise in the Post"
+            content3="Work for the Post"
+            content4="Send us a tip"
+          />
 
-          <li className="mt-[5px]">
-            <a href="">Facebook</a>
-          </li>
-        </ul>
-      </div>
-      <div className="text-center mb-[15px] ">
-        © 2022 www.sandeshkhabar.com
+          <FooterCard
+            topic="Interact with us"
+            content1="Twitter"
+            content2=" Instagram"
+            content3="Facebook"
+          />
+        </div>
+        <div className="text-center mb-[15px] ">
+          © 2022 www.sandeshkhabar.com
+        </div>
       </div>
     </div>
   );

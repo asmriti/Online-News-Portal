@@ -1,16 +1,19 @@
 import React from "react";
+
+import PlayGames from "../components/PlayGames";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+
 import "./KidsStyle.css";
-import games from "../images/games-1.jpg";
+
+import HeroImage from "../images/HeroImage.jpeg";
 import poems from "../images/poems.jpg";
+import logoimg from "../images/logo1.png";
+import games from "../images/games-1.jpg";
+import kidsimg from "../images/kidsimg.png";
 import stories from "../images/stories-1.jpg";
 import biography from "../images/biography-1.jpg";
-import logoimg from "../images/logo1.png";
-import kidsimg from "../images/kidsimg.png";
-import kiidsimg from "../images/kiiddd.png";
-import PlayGames from "../components/PlayGames";
-import HeroImage from "../images/HeroImage.jpeg";
-import Footer from "./Footer";
-import Nav from "./Nav";
+
 function KidsSection() {
   return (
     <div className="kid-page">
