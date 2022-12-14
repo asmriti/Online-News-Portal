@@ -13,7 +13,6 @@ const Business = () => {
       <Nav />
       <SideBar />
       <MainContent category={"Business"} />
-      <SportsNews />
     </div>
   );
 };

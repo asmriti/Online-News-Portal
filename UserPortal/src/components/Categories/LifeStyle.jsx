@@ -13,7 +13,6 @@ const LifeStyle = () => {
       <Nav />
       <SideBar />
       <MainContent category={"LifeStyle"} />
-      <SportsNews />
     </div>
   );
 };
