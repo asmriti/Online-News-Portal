@@ -59,6 +59,30 @@ citizens with the truth.</p>
 
 ![Kids Section 5](./Assets/Kids-section-5.png)
 
+## For Admin
+
+<hr/>
+
+1. Login Page
+
+![Login Page](./Assets/AdminLogin.png)
+
+2. Admin Portal Homepage
+
+![Homepage](./Assets/AdminHome.png)
+
+3. Submit News
+
+![Submit News](./Assets/SubmitNews.png)
+
+4. Update News
+
+![Update News](./Assets/UpdateNews.png)
+
+5. Delete News
+
+![Delete News](./Assets/DeleteNews.png)
+
 ## Tech Stack used
 
 <hr>
