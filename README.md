@@ -105,7 +105,7 @@ citizens with the truth.</p>
 
 Before the installation of project make sure to have installed
 
--     [Nodejs](https://www.example.com)
+[Nodejs](https://nodejs.org/en/download/)
 
 ## 🛠️ Installation Steps
 
@@ -118,7 +118,7 @@ Before the installation of project make sure to have installed
    - Run `npm run start` to start the server (user site)
      <hr/>
 
-     2. Navigate to frontend in AdminPortal
+     2. Navigate to frontend in Admin Portal
 
    - Install the dependencies with npm install
    - Run `npm run start` to start the server admin site)
