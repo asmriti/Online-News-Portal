@@ -8,7 +8,7 @@ import polls from "../images/polls.png";
 
 function PollsSection() {
   return (
-    <div className="container mx-auto my-[1rem]">
+    <div className="container mx-auto mb-[1rem]">
       <div className="flex items-center justify-between p-40">
         <div>
           <h1 className="text-5xl font-bold">
