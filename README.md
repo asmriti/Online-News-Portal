@@ -99,4 +99,37 @@ citizens with the truth.</p>
    - Express.js
    - Mongo DB ATLAS
 
+# How to set up the project?
+
+## 👇 Prerequisites
+
+Before the installation of project make sure to have installed
+
+-     [Nodejs](https://www.example.com)
+
+## 🛠️ Installation Steps
+
+1. Fork the project
+2. Clone the forked project
+3. 1. Navigate the cloned project directory
+
+   - Navitate yourself to UserPortal
+   - Install the dependencies with npm install
+   - Run `npm run start` to start the server (user site)
+     <hr/>
+
+     2. Navigate to frontend in AdminPortal
+
+   - Install the dependencies with npm install
+   - Run `npm run start` to start the server admin site)
+
+   <hr/>
+
+   3. Navigate to backend in AdminPortal
+
+   - Install the dependencies with npm install
+   - Run `nodemon index.js` to start the server (running backend server and db)
+
+Open the browser to visit the website at http://localhost:3000/
+
 ## Made with 💙 by HackO'Holics
