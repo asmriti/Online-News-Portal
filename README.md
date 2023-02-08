@@ -18,7 +18,7 @@ citizens with the truth.</p>
 
 <hr/>
 
-### We two main folders
+### We have two main folders :
 
 1. Admin Portal
    Where Admin
